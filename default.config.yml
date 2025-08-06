@@ -64,7 +64,7 @@ homebrew_installed_packages:
   - zsh-syntax-highlighting   # Syntax highlighting for the shell zsh
   - zsh-you-should-use      # Reminds you that you should use one of your existing aliases
   - mosh                    # For mobile / low-bandwidth shell (SSH replacement)
-  # - bun
+  - bun
   # - pnpm
   - vim
   - xz                      # gzip alternative
