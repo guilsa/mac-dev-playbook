@@ -87,7 +87,7 @@ homebrew_cask_apps:
   - monitorcontrol          # Control display's brightness
   - rectangle               # Move and resize windows
   - visual-studio-code
-  - multipass               # Orchestrates virtual Ubuntu instances
+  # - multipass             # Orchestrates virtual Ubuntu instances
   # - slack
   # - transmit
 
