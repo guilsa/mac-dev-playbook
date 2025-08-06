@@ -78,7 +78,7 @@ homebrew_cask_apps:
   # - docker
   # - dropbox
   - firefox
-  # - firefox@developer-edition
+  - firefox@developer-edition
   - google-chrome
   - iterm2
   # - handbrake
@@ -87,6 +87,8 @@ homebrew_cask_apps:
   - keyclu
   - monitorcontrol          # Control display's brightness
   - rectangle               # Move and resize windows
+  - visual-studio-code
+  - multipass               # Orchestrates virtual Ubuntu instances
   # - slack
   # - transmit
 
