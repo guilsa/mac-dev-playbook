@@ -1,6 +1,9 @@
-<img src="https://raw.githubusercontent.com/geerlingguy/mac-dev-playbook/master/files/Mac-Dev-Playbook-Logo.png" width="250" height="156" alt="Mac Dev Playbook Logo" />
+
+> **Note:** This fork includes a [Developer Checklist](DEVELOPER_CHECKLIST.md) for setup steps specific to this repository. The rest of this README is adapted from the original [mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook) by Jeff Geerling.
 
 # Mac Development Ansible Playbook
+
+<img src="https://raw.githubusercontent.com/geerlingguy/mac-dev-playbook/master/files/Mac-Dev-Playbook-Logo.png" width="250" height="156" alt="Mac Dev Playbook Logo" />
 
 [![CI][badge-gh-actions]][link-gh-actions]
 
