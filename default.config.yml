@@ -74,9 +74,10 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  # photo-sweeper-lite        # Not available in Homebrew
+  # - photo-sweeper-lite      # Not available in Homebrew
   # - multipass               # VM Ubuntu instances
-  # - lulu                    # Ensure latest Mac OS
+  # - utm                     # VM Mac OS instances
+  # - lulu                    # Note: Ensure latest Mac OS
   # - docker
   # - dropbox
   - bitwarden
