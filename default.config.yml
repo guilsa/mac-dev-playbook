@@ -34,17 +34,16 @@ dotfiles_files:
   - .vimrc
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
+  # - ansible                 # Installed via Pip
   - autoconf
   - bash-completion
   - doxygen
   - gettext
   - gifsicle
   - git
-  # - gh
   - go
   - gpg
-  - httpie                  # Friendly cURL
+  - httpie                    # Friendly cURL
   - iperf
   - libevent
   - sqlite
@@ -52,22 +51,22 @@ homebrew_installed_packages:
   - node
   - nvm
   - php
-  - pngpaste                # Save img from clipboard into file (ie. pngpaste thefile.png)
+  - pngpaste                  # Save img from clipboard into file (ie. pngpaste thefile.png)
   - ssh-copy-id
   - readline
   - openssl
-  - pv                      # Monitor progress of data in cli (a pipe viewer)
+  - pv                        # Monitor progress of data in cli (a pipe viewer)
   - wget
-  - wrk                     # HTTP benchmarking tool
+  - wrk                       # HTTP benchmarking tool
   - zsh-history-substring-search  # Recommended by geerlingguy
   - zsh-autocomplete
   - zsh-syntax-highlighting   # Syntax highlighting for the shell zsh
-  - zsh-you-should-use      # Reminds you that you should use one of your existing aliases
-  - mosh                    # For mobile / low-bandwidth shell (SSH replacement)
+  - zsh-you-should-use        # Reminds you that you should use one of your existing aliases
+  - mosh                      # For mobile / low-bandwidth shell (SSH replacement)
   - bun
-  # - pnpm
+  - pnpm
   - vim
-  - xz                      # gzip alternative
+  - xz                        # gzip alternative
   # - colima
 
 homebrew_taps:
@@ -75,22 +74,31 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  # photo-sweeper-lite        # Not available in Homebrew
+  # - multipass               # VM Ubuntu instances
+  # - lulu                    # Ensure latest Mac OS
   # - docker
   # - dropbox
+  - bitwarden
   - firefox
   - firefox@developer-edition
   - google-chrome
-  - iterm2
-  # - handbrake
-  - licecap                 # record animated GIFs
-  - sequel-ace              # SQL GUI
-  - keyclu
-  - monitorcontrol          # Control display's brightness
-  - rectangle               # Move and resize windows
+  - tor-browser
+  - github                    # Github Desktop
   - visual-studio-code
-  # - multipass             # Orchestrates virtual Ubuntu instances
-  # - slack
-  # - transmit
+  - iterm2
+  - licecap                   # record animated GIFs
+  - sequel-ace                # SQL GUI
+  - keyclu
+  - monitorcontrol            # Control display's brightness
+  - rectangle                 # Move and resize windows
+  - disk-inventory-x
+  - protonvpn
+  - free-ruler
+  - discord
+  - signal
+  - telegram
+  - zoom
 
 # See `geerlingguy.mac.mas` role documentation for usage instructions.
 mas_installed_apps: []
