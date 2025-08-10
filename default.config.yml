@@ -66,8 +66,7 @@ homebrew_installed_packages:
   - bun
   - pnpm
   - vim
-  - xz                        # gzip alternative
-  # - colima
+  # - colima                  # Container runtimes on MacOS
 
 homebrew_taps:
   - oven-sh/bun
