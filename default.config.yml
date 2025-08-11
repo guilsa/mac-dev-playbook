@@ -37,7 +37,7 @@ dotfiles_files:
 homebrew_installed_packages:
   # - ansible                 # Installed via Pip
   - autoconf
-  # - bash-completion           # [@Guil]: May not be needed if `zsh-autocomplete` is installed.
+  - bash-completion           # [@Guil]: May not be needed if `zsh-autocomplete` is installed.
   - doxygen
   - gettext
   - gifsicle
