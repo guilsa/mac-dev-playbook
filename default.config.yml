@@ -36,7 +36,7 @@ dotfiles_files:
 homebrew_installed_packages:
   # - ansible                 # Installed via Pip
   - autoconf
-  - bash-completion
+  # - bash-completion           # [@Guil]: May not be needed if `zsh-autocomplete` is installed.
   - doxygen
   - gettext
   - gifsicle
@@ -59,9 +59,9 @@ homebrew_installed_packages:
   - wget
   - wrk                       # HTTP benchmarking tool
   - zsh-history-substring-search  # Recommended by geerlingguy
-  - zsh-autocomplete
-  - zsh-syntax-highlighting   # Syntax highlighting for the shell zsh
-  - zsh-you-should-use        # Reminds you that you should use one of your existing aliases
+  # - zsh-autocomplete
+  # - zsh-syntax-highlighting   # Syntax highlighting for the shell zsh
+  # - zsh-you-should-use        # Reminds you that you should use one of your existing aliases
   - mosh                      # For mobile / low-bandwidth shell (SSH replacement)
   - bun
   - pnpm
