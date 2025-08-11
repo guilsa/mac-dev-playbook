@@ -24,10 +24,11 @@ sudoers_custom_config: ""
 
 dotfiles_repo: https://github.com/guilsa/dotfiles.git
 dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/Dev/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/Dev/GitHub/dotfiles # [@Guil]: updated
 dotfiles_repo_version: main   # Replace with your default branch
 dotfiles_files:
   - .zshrc
+  - .gitconfig
   - .gitignore
   - .inputrc
   - .osx
