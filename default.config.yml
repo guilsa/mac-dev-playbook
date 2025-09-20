@@ -80,6 +80,7 @@ homebrew_cask_apps:
   # - multipass               # VM Ubuntu instances
   # - utm                     # VM Mac OS instances
   # - lulu                    # Note: Ensure latest Mac OS
+  # - netiquette              # By the developers that make Lulu
   # - docker
   # - dropbox
   - bitwarden
