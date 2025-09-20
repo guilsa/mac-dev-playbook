@@ -67,6 +67,8 @@ homebrew_installed_packages:
   - bun
   - pnpm
   - vim
+  - tree
+  - jq
   # - colima                  # Container runtimes on MacOS
 
 homebrew_taps:
@@ -98,7 +100,6 @@ homebrew_cask_apps:
   - free-ruler
   - discord
   - signal
-  - telegram
   - zoom
 
 # See `geerlingguy.mac.mas` role documentation for usage instructions.
