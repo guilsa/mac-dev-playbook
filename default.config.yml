@@ -83,6 +83,7 @@ homebrew_cask_apps:
   # - netiquette              # By the developers that make Lulu
   # - docker
   # - dropbox
+  # - blackhole-2ch           # Virtual audio driver (to record screen with Quicktime)
   - bitwarden
   - firefox
   - firefox@developer-edition
