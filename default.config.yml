@@ -94,7 +94,6 @@ homebrew_cask_apps:
   - iterm2
   - licecap                   # record animated GIFs
   - sequel-ace                # SQL GUI
-  - keyclu
   - monitorcontrol            # Control display's brightness
   - rectangle                 # Move and resize windows
   - disk-inventory-x
