@@ -16,7 +16,7 @@ dockitems_persist: []
 #   pos: 5
 
 configure_sudoers: false
-sudoers_custom_config: ""
+sudoers_custom_mp: ""
 # Example:
 # sudoers_custom_config: |
 #   # Allow users in admin group to use sudo with no password.
@@ -84,6 +84,7 @@ homebrew_cask_apps:
   # - docker
   # - dropbox
   # - blackhole-2ch           # Virtual audio driver (to record screen with Quicktime)
+  - postico
   - bitwarden
   - firefox
   - firefox@developer-edition
@@ -94,6 +95,8 @@ homebrew_cask_apps:
   - iterm2
   - licecap                   # record animated GIFs
   - sequel-ace                # SQL GUI
+  - ffmpeg
+  - yt-dlp
   - monitorcontrol            # Control display's brightness
   - rectangle                 # Move and resize windows
   - disk-inventory-x
